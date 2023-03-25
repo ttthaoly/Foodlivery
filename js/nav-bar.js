@@ -71,6 +71,10 @@
 // };
 const menu = document.getElementById("expanded");
 const menuIcon = document.getElementById("menu-icon");
+
+/**
+ * Event listener
+ */
 document.addEventListener("click", (e) => {
 
   if (menuIcon.contains(e.target)) {
