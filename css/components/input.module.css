@@ -1,0 +1,23 @@
+@import url("../theme/light.theme.css");
+
+.input{
+    padding: 10px 27px;
+    font-size: var(--input-font-size);
+    color: var(--input-text-color);
+    background-color: var(--input-background-color);
+    transition: 0.3s;
+
+    font-weight: 500;
+    line-height: 1.25em;
+    border: 1px solid #E8EAEC;
+    border-radius: 26px;
+}
+.input:hover{
+    background-color: #97cd97;
+}
+.input:focus{
+    background-color: #f4d4d9;
+}
+.input:disabled{
+    background-color: #ee82ee;
+}

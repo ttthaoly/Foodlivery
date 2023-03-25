@@ -1,0 +1,133 @@
+/* header */
+.header-fixed {
+    width: 100%;
+    padding-top: 49px;
+    padding-bottom: 39px;
+    position: fixed;
+    z-index: 20;
+    background: #FFFFFF;
+}
+header {
+  width: 100%;
+  max-width: 1132px;
+  margin: 0 auto;
+  padding-top: 2px;
+  /* gap: 69px; */
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  background: #FFFFFF;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 15px;
+  margin-right: 69px;
+}
+.logo .font2.text-color2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 41px;
+    margin: 0px;
+}
+.phone > .icon-menu > img {
+    width: 45px;
+    height: 45px;
+}
+.call-container {
+  display: flex;
+  align-items: center;
+  gap: 0 18px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #343232;
+}
+.call-number {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #343232;
+}
+.menu-icon {
+    display: none;
+}
+.empty {
+  width: 100%;
+  height: 140px;
+}
+
+@media screen and (max-width: 768px) {
+  .call-icon {
+      display: none;
+  }
+  .header-fixed .nav-bar {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .nav-bar .items {
+      display: none;
+  }
+  .menu-icon {
+      display: block;
+      width: 50px;
+      height: 50px;
+  }
+  .menu-icon span img{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .header-fixed .nav-bar {
+      justify-content: flex-end;
+      gap: 20px;
+  }
+  .nav-bar .items {
+    max-width: none;
+  }
+  /* .expanded {
+    display: flex;
+  }
+  .items {
+    display: none;
+  } */
+  .items-expanded {
+    padding: 10px 0;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 6.5rem;
+    background-color: rgb(247, 182, 234);
+    z-index: 50;
+    width: 100%;
+    height: auto;
+  }
+  .items-expanded .item{
+    margin: 0 auto;
+  }
+  .items-expanded .item:last-child{
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1132px) {
+  .logo {
+    margin-right: 30px;
+  }
+  .call-number {
+    display: none;
+  }
+  header .nav-bar {
+    margin-right: 95px;
+    justify-content: space-around;
+  }
+}
+
+

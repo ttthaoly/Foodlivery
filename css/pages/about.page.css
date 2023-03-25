@@ -1,0 +1,322 @@
+@import url("../utilities.css");
+@import url("../normalize.css");
+@import url("../reset.css");
+@import url("../theme/light.theme.css");
+@import url("../components/button.module.css");
+@import url("../components/typography.module.css");
+@import url("../components/input.module.css");
+@import url("../modules/header.module.css");
+@import url("../modules/nav-bar.module.css");
+@import url("../modules/footer.module.css");
+@import url("../main.css");
+
+/* page-title */
+.page-title {
+    max-width: 1332px;
+    margin: 28px auto;
+    margin-bottom: 60px;
+    width: 100%;
+}
+.page-title-background {
+    position: relative;
+    width: 100vw;
+    padding: 80px 100px;
+    background: #41AA3F;
+    border-radius: 80px 0px 0px 80px;
+}
+.page-title p.text-color1 {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.625;
+}
+.page-title p.font2.text-color1 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 1.125;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* about */
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1132px;
+    margin: 28px auto;
+    width: 100%;
+    margin-top: 80px;
+}
+.about-left{
+    width: 405px;
+    height: 557px;
+    margin: 0px 77px 14px 0px;
+}
+.about-right{
+    width: 687px;
+    /* height: 571px; */
+    margin: 0px;
+}
+.about-right p.font2.text-3xl.text-color1{
+    width: 489px;
+    /* height: 110px; */
+    margin: 0px 0px 32px 0px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.about-right p.font3.text-base.text-color5{
+    width: 650px;
+    /* height: 131px; */
+    margin: 0px 0px 36px 0px;
+}
+.about-list {
+    /* width: 686px; */
+    /* height: 221px; */
+    margin: 0px;
+}
+.about-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 24px 0px 0px 0px;
+}
+.about-description:first-child {
+    margin: 0px;
+}
+.about-description img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 16px 0px 0px;
+}
+.about-description p.text-color4{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* video */
+.video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1132px;
+    margin: 28px auto;
+    width: 100%;
+    /* height: 355px; */
+    margin-top: 83px;
+}
+.video-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 431px; */
+    margin-right: 54px;
+}
+.video-left p.font2.text-color1{
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 55px; 
+    margin: 0px 0px 14px 0px;
+    letter-spacing: 0.05em;
+}
+.video-left p.font3.text-color2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0px 0px 40px 0px;
+}
+.video-left button{
+    width: 207px;
+    height: 49px;
+    margin: 0px;
+    padding: 9px 42px 13px 40px;
+    background: #FF7D34;
+    border-radius: 25px;
+    border: none;
+}
+.video-left button p.font2.text-color3{
+    width: 124px;
+    height: 27px;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+}
+.video-right{
+    width: 646px;
+}
+
+/* logo */
+.about-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1132px;
+    margin: 28px auto;
+    width: 100%;
+    /* height: 153px; */
+    margin-top: 80px;
+    gap: 140px;
+}
+.about-logo img{
+    margin: 0px; 
+}
+
+
+/* counter */
+.counter {
+    max-width: 1332px;
+    margin: 65px auto;
+    width: 100%;
+}
+.counter-background {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100vw;
+    padding: 124px 0 114px 87px;
+    background: #F5F5F5;
+    border-radius: 80px 0px 0px 80px;
+}
+.counter-background div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 243px;
+    height: 102px;
+}
+.counter div p.font2.text-color1{
+    /* width: 243px; */
+    height: 66px;
+    margin: 0px 0px 12px 0px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.counter div p.text-color6{
+    /* width: 153px; */
+    height: 24px;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 590px) {
+    .container .page-title .page-title-background {
+        padding: 50px;
+    }
+    /* about */
+    .container .about img.about-left {
+        width: 97%;
+        
+    }
+    /* video */
+    .video .video-right img{
+        width: 56%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* page-title */
+    .page-title .page-title-background {
+        border-radius: 30px 0px 0px 30px;
+    }
+
+    /* counter */
+    .container .counter .counter-background {
+        flex-wrap: wrap;
+        gap: 30px 0;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    /* page-title */
+    .page-title .page-title-background {
+        padding: 50px 80px;
+    }
+    /* about */
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .about .about-left{
+        margin: 0px;
+    }
+
+    /* video */
+    .container .video .video-left {
+        margin: 0px 0px 20px 0px;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .container .page-title {
+        padding-left: 0px;
+    }
+
+    /* about */
+    .about .about-left{
+        margin-right: 40px;
+    }
+    .about .about-right{
+        width: auto;
+    }
+    .about .about-right p.font3.text-base.text-color5{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .about .about-right p.font2.text-3xl.text-color1 {
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .about-list .about-description {
+        margin-top: 10px;
+    }
+
+    /* counter */
+    .counter .counter-background {
+        padding: 50px 80px;
+    }
+
+    /* video */
+    .video {
+        flex-direction: column;
+
+    }
+    .video .video-left {
+        margin: 0px 100px 20px 100px;
+    }
+    .video .video-left button {
+        margin: 0 auto;
+    }
+
+    /* about-logo */
+    .about-logo {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .about-logo {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .page-title {
+        padding-left: 30px;
+    }
+}

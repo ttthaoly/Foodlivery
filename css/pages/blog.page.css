@@ -1,0 +1,394 @@
+@import url("../utilities.css");
+@import url("../normalize.css");
+@import url("../reset.css");
+@import url("../theme/light.theme.css");
+@import url("../components/button.module.css");
+@import url("../components/typography.module.css");
+@import url("../components/input.module.css");
+@import url("../modules/header.module.css");
+@import url("../modules/nav-bar.module.css");
+@import url("../modules/footer.module.css");
+@import url("../main.css");
+
+/* page-title */
+.page-title {
+    max-width: 1332px;
+    margin: 28px auto;
+    margin-bottom: 60px;
+    width: 100%;
+}
+.page-title-background {
+    position: relative;
+    width: 100vw;
+    padding: 80px 100px;
+    background: #41AA3F;
+    border-radius: 80px 0px 0px 80px;
+}
+.page-title p.text-color1 {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.625;
+}
+.page-title p.font2.text-color1 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 1.125;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* post-list */
+.post-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1132px;
+    margin: 0 auto;
+    width: 100%;
+}
+.post-left {
+    width: 747px;
+}
+.post {
+    height: 806px;
+}
+.properties {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 335px;
+    height: 20px;
+}
+.properties .property{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+}
+.properties .property img{
+    width: 16px;
+    height: 20px;
+    margin: 0px 10px 0px 0px;
+}
+.properties .property:nth-child(2) img{
+    width: 14px;
+}
+.properties .property .text-sm.text-color2{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+.font2.text-color1.text-3xl{
+    margin: 18px 0px 34px 0px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.photo{
+    position: relative;
+    /* width: 746px; */
+    height: 440px;
+    margin: 0px;
+    background: #CCCCCC;
+    border-radius: 20px;
+}
+.photo .tag{
+    position: absolute;
+    width: 130px;
+    height: 51px;
+    top: 40px;
+    left: 0px;
+    background: #FF7D34;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.photo .tag p.text-color3{
+    margin: 13px 0px 12px 0px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+.font3.text-color5{
+    margin: 41px 0px 24px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 251px;
+    height: 20px;
+    margin: 0px;
+}
+.card img{
+    width: 16px;
+    margin: 0px 10px 0px 0px;
+}
+.card .text-sm.text-color4{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+hr {
+    margin: 0px 0px 40px 0px;
+    border: 2px solid rgba(196, 196, 196, 0.85);
+}
+.post2 {
+    margin-bottom: 50px;
+}
+.post2 .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 21px;
+}
+.post2 .name .font2.text-color1.text-3xl{
+    margin-bottom: 18px;
+}
+.post2 .name .font3.text-color1{
+    margin: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+.post2 .name img{
+    width: 25px;
+    margin: 0px 16px 0px 0px;
+}
+.post3 {
+    height: 748px;
+}
+.post3 .photo .tag {
+    background: #41AA3F;
+}
+.post4 {
+    height: 803px;
+}
+.post4 .photo .tag {
+    background: #41AA3F;
+}
+ .pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 314px;
+    height: 63px;
+    margin-bottom: 120px;
+}
+.container.post-list .post-left .pagination a{
+    display: block;
+    text-decoration: none;
+}
+.pagination .font2.text-color2{
+    margin: 0px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.container.post-list .post-left .pagination .font2.text-color2:hover{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 70px;
+    color: #41AA3F;
+}
+.pagination img{
+    width: 30px;
+    height: 1px;
+}
+.pagination img:last-child{
+    width: 31px;
+    height: 14px;
+}
+
+/* post-right */
+.post-right {
+    width: 259px;
+    height: 1335px;
+}
+.post-right .font2.text-color1{
+    margin: 0px 0px 16px 0px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+.post-right .search{
+    position: relative;
+    margin: 0px 0px 40px 0px;
+}
+.post-right .search input{
+    width: 259px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid rgba(196, 196, 196, 0.85);
+    border-radius: 25px;
+    padding-left: 24px;
+}
+.post-right .search img{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 15px;
+    right: 17px;
+    margin: 0px;
+}
+.recent-posts {
+    width: 259px;
+    height: 702px;
+}
+.recent-posts .font2.text-color1{
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px 0px 24px 0px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+.recent-posts .recent-post img{
+    width: 259px;
+    height: 96px;
+    margin: 0px 0px 24px 0px;
+}
+.recent-posts .recent-post{
+    margin: 0px 0px 36px 0px;
+}
+.recent-posts .recent-post .recent-property {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 122px;
+    height: 20px;
+    margin: 0px;
+}
+.recent-posts .recent-post .recent-property .text-sm.text-color2{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+.recent-posts .recent-post .recent-property img{
+    width: 16px;
+    height: 20px;
+    margin: 0px 10px 0px 0px;
+}
+.recent-posts .recent-post .font1.text-color2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    margin: 12px 0px 0px 0px;
+}
+
+
+/* categories */
+.categories {
+    width: 259px;
+    height: 200px;
+    margin: 0px 0px 52px 0px;
+}
+.categories .font2.text-color1{
+    margin: 0px 0px 24px 0px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+.categories .font1.text-color1{
+    width: 259px;
+    height: 146px;
+    margin: 0px;
+    /* font-weight: 700; */
+    font-size: 16px;
+    line-height: 32px;
+}
+
+/* tag */
+.tags {
+    width: 249px;
+    height: 202px;
+}
+.tags .font2.text-color1{
+    margin: 0px 0px 20px 0px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+.tags .tag {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.tags .tag button{
+    height: 40px;
+    border: 1px solid rgba(65, 170, 63, 0.5);
+    border-radius: 25px;
+}
+.tags .tag button .font1.text-sm{
+    margin: 0px 9px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #39A237;
+}
+
+@media screen and (max-width: 590px) {
+    .container .page-title .page-title-background {
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* page-title */
+    .page-title .page-title-background {
+        border-radius: 30px 0px 0px 30px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    /* page-title */
+    .page-title .page-title-background {
+        padding: 50px 80px;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+    /* page-title */
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .container .page-title {
+        padding-left: 0px;
+    }
+
+    /* post-right */
+    .post-right {
+        margin-right: -300px;
+    }
+
+    /* post-left */
+    .post-left {
+        width: auto;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .page-title {
+        padding-left: 30px;
+    }
+}

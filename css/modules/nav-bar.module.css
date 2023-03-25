@@ -1,0 +1,64 @@
+.nav-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+.items {
+    width: 100%;
+    height: 50px;
+    max-width: 576px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item {
+    margin-right: 49px;
+}
+.items .item a.text-color2 {
+    padding: 15px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+  }
+li.item:last-child{
+    margin-right: 0px;
+}
+ul {
+    list-style: none;
+  }
+a {
+    text-decoration: none;
+  }
+
+/* :hover thẻ này dùng để truy cập trạng thái của 1 vật thể thể (hover, focus, disabled, hover, visited, active) */
+div.nav-bar ul.items li.item a:hover {
+    background-color: pink;
+}
+.expanded {
+  display: none;
+}
+.items-expanded {
+  padding: 10px 0;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 6.5rem;
+  background-color: rgb(247, 182, 234);
+  z-index: 50;
+  width: 100%;
+  height: auto;
+}
+.items-expanded .item{
+  margin: 0 auto;
+}
+.items-expanded .item:last-child{
+  margin: 0 auto;
+}
+@media (max-width: 1280px) {
+  .expanded {
+    display: none;
+  }
+}

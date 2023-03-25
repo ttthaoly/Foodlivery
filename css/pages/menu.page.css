@@ -1,0 +1,211 @@
+@import url("../utilities.css");
+@import url("../normalize.css");
+@import url("../theme/light.theme.css");
+@import url("../components/button.module.css");
+@import url("../components/typography.module.css");
+@import url("../components/input.module.css");
+@import url("../modules/header.module.css");
+@import url("../modules/nav-bar.module.css");
+@import url("../modules/footer.module.css");
+@import url("../main.css");
+
+
+/* page-title */
+.page-title {
+    max-width: 1332px;
+    margin: 28px auto;
+    margin-bottom: 60px;
+    width: 100%;
+}
+.page-title-background {
+    position: relative;
+    width: 100vw;
+    padding: 80px 100px;
+    background: #41AA3F;
+    border-radius: 80px 0px 0px 80px;
+}
+.page-title p.text-color1 {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+}
+.page-title p.font2.text-color1 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 72px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* breakfast */
+.breakfast {
+    max-width: 1132px;
+    margin: 0px auto;
+    width: 100%;
+    height: 565px;
+}
+.breakfast p.font2.text-3xl.text-color1 {
+    width: 489px;
+    height: 60px;
+    margin: 0px 0px 49px 0px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.dishs {
+    display: grid;
+    grid-template-columns: 539px 539px;
+    grid-template-rows: 120px 120px 120px;
+    grid-template-areas:
+       "dish dish"
+       "dish dish"
+       "dish dish";
+    column-gap: 56px;
+    row-gap: 48px;
+    height: 536px;
+    padding-right: 50px;
+}
+.dish {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 539px;
+    height: 120px;
+}
+.dish:hover {
+    /* height: 140px; */
+    z-index: 5;
+    /* padding-left: 10px; */
+    background-color: #a59494;
+    border-radius: 20px;
+}
+.breakfast-plate {
+    width: 120px;
+    height: 120px;
+    margin: 0px 40px 0px 0px;
+}
+.breakfast-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+}
+.breakfast-text .text-2xl.text-color2{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    margin: 10px 0px 7px 0px;
+}
+.breakfast-text .text-color5{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 0px 23px 0px;
+}
+.properties{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 264px;
+    height: 20px;
+    margin: 0px 0px 10px 0px;
+}
+.properties .property{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.properties .property img{
+    width: 16px;
+    height: 20px;
+    margin: 0px 10px 0px 0px;
+}
+.properties .property .text-sm.text-color2{
+    margin: 0px;
+}
+hr.hr {
+    position: relative;
+    width: 100vw;
+    max-width: 1132px;
+    margin: 80px auto;
+    border: 1px solid rgba(196, 196, 196, 0.85);
+}
+
+@media screen and (max-width: 590px) {
+    .container .page-title .page-title-background {
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .call-icon {
+        display: none;
+    }
+
+    /* page-title */
+    .page-title .page-title-background {
+        border-radius: 30px 0px 0px 30px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    /* page-title */
+    .page-title .page-title-background {
+        padding: 50px 80px;
+    }
+    .items {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+        width: 50px;
+        height: 50px;
+    }
+    .menu-icon span img{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-bar {
+        justify-content: flex-end;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .call-number {
+        display: none;
+    }
+    .container .page-title {
+        padding-left: 0px;
+    }
+    .breakfast {
+        height: auto;
+    }
+    .breakfast .dishs{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+    }
+    .dish {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .page-title {
+        padding-left: 30px;
+    }
+}

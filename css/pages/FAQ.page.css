@@ -1,0 +1,277 @@
+@import url("../utilities.css");
+@import url("../normalize.css");
+@import url("../reset.css");
+@import url("../theme/light.theme.css");
+@import url("../components/button.module.css");
+@import url("../components/typography.module.css");
+@import url("../components/input.module.css");
+@import url("../modules/header.module.css");
+@import url("../modules/nav-bar.module.css");
+@import url("../modules/footer.module.css");
+@import url("../main.css");
+
+/* page-title */
+.page-title {
+    max-width: 1332px;
+    margin: 28px auto;
+    margin-bottom: 60px;
+    width: 100%;
+}
+.page-title-background {
+    position: relative;
+    width: 100vw;
+    padding: 80px 100px;
+    background: #FFBE34;
+    border-radius: 80px 0px 0px 80px;
+}
+.page-title p.text-color1 {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.625;
+}
+.page-title p.font2.text-color1 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 1.125;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* about-us */
+.about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1132px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 87px;
+    margin-bottom: 80px;
+}
+.aboutus-right {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin: 0px;
+}
+.aboutus-right p.font2.text-3xl.text-color1{
+    margin: 0px 0px 52px 0px;
+    text-transform: uppercase;
+}
+.aboutus-right p.font3.text-base.text-color5{
+    margin: 0px 0px 49px 0px;
+}
+.aboutus-right button{
+    width: 207px;
+    height: 49px;
+    padding: 9px 42px 13px 42px;
+    margin: 0px;
+    background: #FF7D34;
+    border: none;
+    border-radius: 25px;
+}
+
+/* FAQ */
+.faq {
+    max-width: 1132px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.question {
+    margin: 16px 0px 0px 0px;
+}
+.question:first-child {
+    margin: 0px;
+}
+.question-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 1132px; */
+    height: 98px;
+    padding: 0px 29px 0px 40px;
+    margin: 0px 0px 6px 0px;
+    background: #F5F5F5;
+    border-radius: 25px;
+}
+.question-desc {
+    display: flex;
+    align-items: center;
+    height: 230px;
+    margin: 0px;
+    background: #FFFFFF;
+    border: 1px solid rgba(196, 196, 196, 0.85);
+    border-radius: 25px;
+}
+.question-desc .font3.text-base.text-color5{
+    width: 876px;
+    margin: 0px 0px 0px 44px;
+}
+
+/* preferencrs */
+.preferencrs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1132px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 120px;
+}
+.preferencrs .fresh{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 304px;
+    height: 280px;
+    margin: 7px 80px 0px 0px;
+}
+.preferencrs .fresh img{
+    margin: 0px 0px 26px 0px;
+}
+.preferencrs .fresh .text-color1{
+    margin: 0px 0px 19px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.preferencrs .fresh .font3.text-base.text-color5{
+    margin: 0px;
+    text-align: center;
+}
+
+.preferencrs .natural{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 323px;
+    height: 256px;
+    margin: 0px 0px 31px 0px;
+}
+.preferencrs .natural img{
+    margin: 0px 0px 27px 0px;
+}
+.preferencrs .natural .text-color1{
+    margin: 0px 0px 20px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.preferencrs .natural .font3.text-base.text-color5{
+    margin: 0px;
+    text-align: center;
+}
+.preferencrs .nutrition{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+    height: 252px;
+    margin: 4px 0px 31px 0px;
+}
+.preferencrs .nutrition img{
+    margin: 0px 0px 26px 0px;
+}
+.preferencrs .nutrition .text-color1{
+    margin: 0px 0px 20px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.preferencrs .nutrition .font3.text-base.text-color5{
+    margin: 0px;
+    text-align: center;
+}
+
+@media screen and (max-width: 590px) {
+    .container .page-title .page-title-background {
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* page-title */
+    .page-title .page-title-background {
+        border-radius: 30px 0px 0px 30px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    /* page-title */
+    .page-title .page-title-background {
+        padding: 50px 80px;
+    }
+
+    /* about-us */
+    .about-us {
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutus-right button {
+        margin: 0 auto;
+    }
+
+    /* FAQ */
+    .question .question-desc {
+        height: auto;
+        padding: 20px;
+    }
+    .question .question-desc .font3.text-base.text-color5{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+    /* page-title */
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .container .page-title {
+        padding-left: 0px;
+    }
+
+    /* about-us */
+    .about-us {
+        gap: 30px;
+    }
+    .about-us .aboutus-right {
+        width: auto;
+    }
+    .about-us .aboutus-right p.font2.text-3xl.text-color1{
+        margin-bottom: 20px;
+    }
+    .about-us .aboutus-right p.font3.text-base.text-color5{
+        margin-bottom: 20px;
+    }
+
+    /* preferencrs */
+    .preferencrs {
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .preferencrs div {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .page-title {
+        padding-left: 30px;
+    }
+}
+
