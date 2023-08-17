@@ -1,0 +1,47 @@
+@import url("../theme/light.theme.css");
+
+.btn {
+    height: var(--button-height-regular);
+    font-size: var(--solid-button-font-size);
+    display: inline-block;
+    border: 0px;
+    transition: 0.3s;
+}
+
+.btn.btn-solid {
+    background-color: var(--solid-button-background-color);
+    color: var(--solid-button-text-color);
+    border-radius: 50px;
+}
+
+.btn.btn-solid:hover {
+    background-color: rgb(155, 155, 155);
+    color:rgb(99, 88, 88);
+}
+
+.btn.btn-round {
+    background-color: var(--round-button-background-color);
+    color: var(--round-button-text-color);
+    border: var(--round-button-border);
+}
+
+.btn.btn-xs {
+    height: var(--button-height-extra-small);
+    min-width: 116px;
+    max-width: 193px;
+    padding-inline: 27px;
+}
+
+.btn.btn-sm {
+    height: var(--button-height-small);
+    min-width: 119px;
+    max-width: 222px;
+    padding-inline: 30px;
+}
+
+.btn.btn-lg {
+    height: var(--button-height-large);
+    min-width: 186px;
+    /* max-width: 220px; */
+    padding-inline: 51px;
+}

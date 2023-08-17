@@ -1,0 +1,71 @@
+@import url("../theme/light.theme.css");
+
+.font1{     /* Montserrat */
+    font-family: var(--font-family1);
+
+    font-size: var(--font-style);
+}
+.font2{     /* Oswald */
+    font-family: var(--font-family2);
+    font-size: var(--font-style);
+}
+.font3{     /* Open Sans */
+    font-family: var(--font-family3);
+    font-size: var(--font-style);
+}
+.text-color1{     /* 2E294E */
+    color: var(--text-color1);
+}
+.text-color2{     /* 343232 */
+    color: var(--text-color2);
+}
+.text-color3{     /* FFFFFF */
+    color: var(--text-color3);
+}
+.text-color4{     /* 41AA3F */
+    color: var(--text-color4);
+}
+.text-color5{     /* 6B6B6B */
+    color: var(--text-color5);
+}
+.text-color6{     /* FF7D34 */
+    color: var(--text-color6);
+}
+.text-xs{
+    font-size: var(--text-xs);
+    font-weight: 400;
+    line-height: 1.857143;
+}
+.text-sm{
+    font-size: var(--text-sm);
+    font-weight: 500;
+    line-height: 1.429;
+}
+.text-base{
+    font-size: var(--text-base);
+    font-weight: 400;
+    line-height: 2;
+}
+.text-lg{
+    font-size: var(--text-lg);
+    font-weight: 400;
+    line-height: 1.5;
+}
+.text-xl{
+    font-size: var(--text-xl);
+    font-weight: 700;
+    line-height: 1.5;
+}
+.text-2xl{
+    font-size: var(--text-2xl);
+    font-weight: 600;
+    line-height: 1.333;
+}
+.text-3xl{
+    font-size: var(--text-3xl);
+    font-weight: 400;
+    line-height: 1.41;
+}
+
+
+

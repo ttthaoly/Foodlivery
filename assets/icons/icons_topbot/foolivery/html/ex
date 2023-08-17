@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/pages/home.page.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container-header">
+        <div id="header">
+            <div class="logo">
+                <img src="../assets/icons/icons_topbot/Logo.svg" alt="logo">
+                <p class="font2 text-color2">foolivery</p>
+            </div>
+            <div class="nav-bar">
+                <ul class="menu-items">
+                    <li class="item">
+                        <a class="font1 text-color2" href="">About</a>
+                    </li>
+                    <li class="item">
+                        <a class="font1 text-color2" href="">Menu</a>
+                    </li>
+                    <li class="item">
+                        <a class="font1 text-color2" href="">Services</a>
+                    </li>
+                    <li class="item">
+                        <a class="font1 text-color2" href="">News</a>
+                    </li>
+                    <li class="item">
+                        <a class="font1 text-color2" href="">FAQ</a>
+                    </li>
+                    <li class="item">
+                        <a class="font1 text-color2" href="">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="phone">
+                <h5>8 800 000 00 00</h5>
+                <button>
+                    <img src="../assets/icons/icons_topbot/phoneheader.svg" alt="phone">
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="empty"></div>
+    <!-- body -->
+
+    <!-- hero -->
+    <div class="bgr">
+        <div class="container hero">
+            <div class="hero-left">
+                <h2 class="font2 text-color2">SALMON WITH ASPARAGUS</h2>
+                <p class="font3 text-base text-color2">Fragrant baked salmon with notes of citrus on a pillow of spinach and mushrooms. Perfectly in harmony
+                    with asparagus.</p>
+                <div class="info-hero">
+                    <div>
+                        <p class="font2 text-xs text-color2">Calories</p>
+                        <p class="font2 text-xs text-color2">450 kcal</p>
+                    </div>
+                    <img src="../assets/icons/icons_page/Line 1.svg" alt="">
+                    <div class="a">
+                        <p class="font2 text-xs text-color2">Fats</p>
+                        <p class="font2 text-xs text-color2">4,3 gr</p>
+                    </div>
+                    <img src="../assets/icons/icons_page/Line 1.svg" alt="">
+                    <div class="a">
+                        <p class="font2 text-xs text-color2">Protein</p>
+                        <p class="font2 text-xs text-color2">8,2 gr</p>
+                    </div>
+                </div>
+                <button class="btn-hero">
+                    <p class="font2 text-xl text-color3">$ 12</p>
+                    <img src="../assets/icons/icons_page/Line 1.svg" alt="">
+                    <p class="font2 text-color3">order now</p>
+                </button>
+                <div class="pages">
+                    <p class="font2 text-color4">01</p>
+                    <img src="../assets/icons/icons_page/Line 4.svg" alt="">
+                    <p class="font2 text-color2">06</p>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="../assets/icons/icons_page/Special _offer.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- about-us -->
+    <div class="container about-us">
+        <div class="aboutus-left">
+            <img src="../assets/icons/icons_page/about.svg" alt="">
+        </div>
+        <div class="aboutus-right">
+            <p class="font2 text-3xl text-color1">ABOUT OUR COMPANY</p>
+            <p class="font3 text-base text-color5">Health can
+                to be tasty
+                .This is the credo by which our friendly community lives. <br><br>
+                
+                We declare a diet, we eat after 6 pm and sometimes miss workouts because we just want to relax at home with our family.
+                We free your time from grocery shopping and cooking so that you can do those things that you enjoy.
+            </p>
+            <button class="font2 text-lg text-color3">read more</button>
+        </div>
+    </div>
+
+    <!-- filter -->
+    <div class="container-filter">
+        <div class="filter">
+            <p class="font2 text-color1">Choose a Ration
+                for yourself</p>
+            <button>
+                <p class="font3 text-color5">Woman</p>
+                <img src="../assets/icons/icons_page/select.svg" alt="">
+            </button>
+            <button>
+                <p class="font3 text-color5">Meduim</p>
+                <img src="../assets/icons/icons_page/select.svg" alt="">
+            </button>
+            <button>
+                <p class="font3 text-color5">Vegetarian</p>
+                <img src="../assets/icons/icons_page/select.svg" alt="">
+            </button>
+        </div>
+    </div>
+
+    <!-- menu -->
+    <div class="container menu">
+        <div class="icons">
+            <img src="../assets/icons/icons_page/icon 1.svg" alt="">
+            <img src="../assets/icons/icons_page/icon 2.svg" alt="">
+            <img src="../assets/icons/icons_page/icon 3.svg" alt="">
+            <img src="../assets/icons/icons_page/icon 4.svg" alt="">
+            <img src="../assets/icons/icons_page/icon 5.svg" alt="">
+        </div>
+        <div class="polygon">
+            <div class="polygon-left"></div>
+            <div class="polygon-right"></div>
+        </div>
+        <div class="dishs">
+            <div class="dish">
+                <img class="float-left" src="../assets/icons/icons_page/plate.svg" alt="">
+                <div class="float-right">
+                    <p class="font1 text-2xl text-color1">Oysters Rockefeller Eggs Pastry</p>
+                    <div class="dish-info">
+                        <div>
+                            <p class="font1 text-color6">Calories</p>
+                            <p class="font1 text-color1">220 kcal</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Fats</p>
+                            <p class="font1 text-color1">4,3 gr</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Protein</p>
+                            <p class="font1 text-color1">8,2 gr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dish">
+                <img class="float-left" src="../assets/icons/icons_page/plate.svg" alt="">
+                <div class="float-right">
+                    <p class="font1 text-2xl text-color1">Scrambled Eggs in Puff Pastry</p>
+                    <div class="dish-info">
+                        <div>
+                            <p class="font1 text-color6">Calories</p>
+                            <p class="font1 text-color1">450 kcal</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Fats</p>
+                            <p class="font1 text-color1">4,3 gr</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Protein</p>
+                            <p class="font1 text-color1">8,2 gr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dish">
+                <img class="float-left" src="../assets/icons/icons_page/plate.svg" alt="">
+                <div class="float-right">
+                    <p class="font1 text-2xl text-color1">Mississippi Mud with Lime</p>
+                    <div class="dish-info">
+                        <div>
+                            <p class="font1 text-color6">Calories</p>
+                            <p class="font1 text-color1">180 kcal</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Fats</p>
+                            <p class="font1 text-color1">4,3 gr</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Protein</p>
+                            <p class="font1 text-color1">8,2 gr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dish">
+                <img class="float-left" src="../assets/icons/icons_page/plate.svg" alt="">
+                <div class="float-right">
+                    <p class="font1 text-2xl text-color1">Delmonico Steak & Delmonico Potatoes</p>
+                    <div class="dish-info">
+                        <div>
+                            <p class="font1 text-color6">Calories</p>
+                            <p class="font1 text-color1">100 kcal</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Fats</p>
+                            <p class="font1 text-color1">4,3 gr</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Protein</p>
+                            <p class="font1 text-color1">8,2 gr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- video -->
+    <div class="container video">
+        <div class="video-left">
+            <p class="font2 text-color1">YOU CAN WATCH COOKING PROCESS TRANSLATION</p>
+            <p class="font3 text-color2">Our kitchen employs highly qualified cooks. We adhere to all sanitary standards, and these are not
+                just words, because you can easily see this yourself</p>
+            <button>
+                <p class="font2 text-color3">play video</p>
+            </button>
+        </div>
+        <div class="video-right">
+            <img src="../assets/icons/icons_page/video.svg" alt="">
+        </div>
+    </div>
+
+    <!-- how it works -->
+    <div class="overflow-hidden">
+        <div class="bgr-how">
+            <div class="container howitworks">
+                <img class="title-hiws" src="../assets/icons/icons_page/title.svg" alt="">
+                <div class="ststep1">
+                    <p class="font2 text-color3">CHOOSE</p>
+                    <p class="font1 text-color3">Do you want to lose weight, exercise, adhere to a therapeutic diet? Our dietitian will help you with
+                        choosing the right program!</p>
+                </div>
+                <div class="ststep2">
+                    <p class="font2 text-color3">PREPARE FOOD</p>
+                    <p class="font1 text-color3">We prepare food from fresh and proven products according to the menu developed by the chef,
+                        nutritionist, and fitness trainer.</p>
+                </div>
+                <div class="ststep3">
+                    <p class="font2 text-color3">DELIVER</p>
+                    <p class="font1 text-color3">Home or Office? Our courier will deliver your 5-times daily diet to anywhere in the world.</p>
+                </div>
+                <div class="way1">
+                    <img src="../assets/icons/icons_page/way 1.svg" alt="">
+                </div>
+                <div class="way2">
+                    <img src="../assets/icons/icons_page/way 2.svg" alt="">
+                </div>
+            </div>
+            <div class="bgr-grandient"></div>
+        </div>
+    </div>
+
+    <!-- related-post -->
+    <div class="container related-post">
+        <p class="font2 text-color1">RELATED POST</p>
+        <div class="posts">
+            <div class="post">
+                <div class="properties">
+                    <div class="property1">
+                        <img src="../assets/icons/icons_page/1.svg" alt="">
+                        <p class="font1 text-sm text-color2">April 8, 2020</p>
+                    </div>
+                    <div class="property1">
+                        <img src="../assets/icons/icons_page/2.svg" alt="">
+                        <p class="font1 text-sm text-color2">Chanel Davis</p>
+                    </div>
+                    <div class="property1">
+                        <img src="../assets/icons/icons_page/3.svg" alt="">
+                        <p class="font1 text-sm text-color2">4</p>
+                    </div>
+                </div>
+                <img class="img-post" src="../assets/icons/icons_page/relate.svg" alt="">
+                <p class="font1 text-2xl text-color1">Proper nutrition or diet? What's the Difference?</p>
+                <div class="property2">
+                    <img src="../assets/icons/icons_page/readmore.svg" alt="">
+                    <p class="font1 text-sm text-color4">Read more</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="properties">
+                    <div class="property1">
+                        <img src="../assets/icons/icons_page/1.svg" alt="">
+                        <p class="font1 text-sm text-color2">April 8, 2020</p>
+                    </div>
+                    <div class="property1">
+                        <img src="../assets/icons/icons_page/2.svg" alt="">
+                        <p class="font1 text-sm text-color2">Chanel Davis</p>
+                    </div>
+                    <div class="property1">
+                        <img src="../assets/icons/icons_page/3.svg" alt="">
+                        <p class="font1 text-sm text-color2">4</p>
+                    </div>
+                </div>
+                <img class="img-post" src="../assets/icons/icons_page/relate.svg" alt="">
+                <p class="font1 text-2xl text-color1">Proper nutrition or diet? What's the Difference?</p>
+                <div class="property2">
+                    <img src="../assets/icons/icons_page/readmore.svg" alt="">
+                    <p class="font1 text-sm text-color4">Read more</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="properties">
+                    <div class="property1">
+                        <img src="../assets/icons/icons_page/1.svg" alt="">
+                        <p class="font1 text-sm text-color2">April 8, 2020</p>
+                    </div>
+                    <div class="property1">
+                        <img src="../assets/icons/icons_page/2.svg" alt="">
+                        <p class="font1 text-sm text-color2">Chanel Davis</p>
+                    </div>
+                    <div class="property1">
+                        <img src="../assets/icons/icons_page/3.svg" alt="">
+                        <p class="font1 text-sm text-color2">4</p>
+                    </div>
+                </div>
+                <img class="img-post" src="../assets/icons/icons_page/relate.svg" alt="">
+                <p class="font1 text-2xl text-color1">Proper nutrition or diet? What's the Difference?</p>
+                <div class="property2">
+                    <img src="../assets/icons/icons_page/readmore.svg" alt="">
+                    <p class="font1 text-sm text-color4">Read more</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="banner-left">
+            <p class="font2 text-color1">NEED A FREE CONSULTATION?</p>
+            <p class="font3 text-color5">If you  have questions, please fill out the form and we will call you back within five minutes.</p>
+            <form action="" class="email">
+                <input type="text" name="" id="" placeholder="Email">
+                <button>
+                    <p class="font2 text-lg text-color3">send</p>
+                </button>
+            </form>
+        </div>
+        <img src="../assets/icons/icons_page/decor text.svg" alt="">
+    </div>
+
+    <!-- footer -->
+    <div class="container footer">
+        <div class="logo-footer">
+            <div class="logo">
+                <img src="../assets/icons/icons_topbot/Logo.svg" alt="">
+                <p class="font2 text-color2">foolivery</p>
+            </div>
+            <div class="socials">
+                <img src="../assets/icons/icons_topbot/twiter.svg" alt="">
+                <img src="../assets/icons/icons_topbot/facebook.svg" alt="">
+                <img src="../assets/icons/icons_topbot/insta.svg" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="info-footer">
+            <div class="subcribe">
+                <p class="font1 text-color2">Sign up for Updates</p>
+                <p class="font3 text-base text-color5">To stay up-to-date on our promotions, discounts, sales, special offers and more.</p>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Enter your email">
+                </form>
+            </div>
+            <div class="sitemap">
+                <p class="font1 text-color2">Sitemap</p>
+                <div class="descriptions">
+                    <div class="description">
+                        <ul>
+                            <li>
+                                <a href="">• Main</a>
+                            </li>
+                            <li>
+                                <a href="">• About us</a>
+                            </li>
+                            <li>
+                                <a href="">• News</a>
+                            </li>
+                            <li>
+                                <a href="">• Menu</a>
+                            </li>
+                            <li>
+                                <a href="">• FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="description">
+                        <ul>
+                            <li>
+                                <a href="">• Blog</a>
+                            </li>
+                            <li>
+                                <a href="">• Contacts</a>
+                            </li>
+                            <li>
+                                <a href="">• Privacy</a>
+                            </li>
+                            <li>
+                                <a href="">• Terms</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts">
+                <div class="contacts-phone">
+                    <img src="../assets/icons/icons_topbot/phonefooter.svg" alt="">
+                    <p class="text-color5">8 (800) 000 00 00</p>
+                </div>
+                <div class="contacts-business-hours">
+                    <img src="../assets/icons/icons_topbot/time.svg" alt="">
+                    <p class="text-color5">Monday-Friday: 9:00 am - 6:00 pm
+                        Saturday: 9:00 am - 4:00 pm</p>
+                </div>
+                <div class="contacts-email">
+                    <img src="../assets/icons/icons_topbot/email.svg" alt="">
+                    <p class="text-color5">hello@merkulov.design</p>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            <img src="../assets/icons/icons_topbot/Bar.svg" alt="">
+            <p class="font3 text-color5">© 2020 Food Delivery Template – Foolivery by merkulove. </p>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+
+<!-- hero -->
+<div class="bgr">
+    <div class="hero">
+        <div class="hero-left">
+            <h2 class="font2 text-color2">SALMON WITH ASPARAGUS</h2>
+            <p class="font3 text-base text-color2">Fragrant baked salmon with notes of citrus on a pillow of spinach
+                and mushrooms. Perfectly in harmony
+                with asparagus.</p>
+            <div class="info-hero">
+                <div>
+                    <p class="font2 text-xs text-color2">Calories</p>
+                    <p class="font2 text-xs text-color2">450 kcal</p>
+                </div>
+                <img src="../assets/icons/icons_page/Line 1.svg" alt="">
+                <div class="a">
+                    <p class="font2 text-xs text-color2">Fats</p>
+                    <p class="font2 text-xs text-color2">4,3 gr</p>
+                </div>
+                <img src="../assets/icons/icons_page/Line 1.svg" alt="">
+                <div class="a">
+                    <p class="font2 text-xs text-color2">Protein</p>
+                    <p class="font2 text-xs text-color2">8,2 gr</p>
+                </div>
+            </div>
+            <button class="btn-hero">
+                <p class="font2 text-xl text-color3">$ 12</p>
+                <img src="../assets/icons/icons_page/Line 1.svg" alt="">
+                <p class="font2 text-color3">order now</p>
+            </button>
+            <div class="pages">
+                <p class="font2 text-color4">01</p>
+                <img src="../assets/icons/icons_page/Line 4.svg" alt="">
+                <p class="font2 text-color2">06</p>
+            </div>
+        </div>
+        <div class="hero-right">
+            <img src="../assets/icons/icons_page/Special _offer.svg" alt="">
+        </div>
+    </div>
+</div>
+
+<!-- about-us -->
+<div class="container about-us">
+    <div class="aboutus-left">
+        <img src="../assets/icons/icons_page/about.svg" alt="">
+    </div>
+    <div class="aboutus-right">
+        <p class="font2 text-3xl text-color1">ABOUT OUR COMPANY</p>
+        <p class="font3 text-base text-color5">Health can
+            to be tasty
+            .This is the credo by which our friendly community lives. <br><br>
+            
+            We declare a diet, we eat after 6 pm and sometimes miss workouts because we just want to relax at home with our family.
+            We free your time from grocery shopping and cooking so that you can do those things that you enjoy.
+        </p>
+        <button class="font2 text-lg text-color3">read more</button>
+    </div>
+</div>
+
+<!-- filter -->
+<div class="container filter">
+    <div class="filter">
+        <p class="font2 text-color1">Choose a Ration
+            for yourself</p>
+        <button>
+            <p class="font3 text-color5">Woman</p>
+            <img src="../assets/icons/icons_page/select.svg" alt="">
+        </button>
+        <button>
+            <p class="font3 text-color5">Meduim</p>
+            <img src="../assets/icons/icons_page/select.svg" alt="">
+        </button>
+        <button>
+            <p class="font3 text-color5">Vegetarian</p>
+            <img src="../assets/icons/icons_page/select.svg" alt="">
+        </button>
+    </div>
+</div>
+
+<!-- menu -->
+<div class="container-menu">
+    <div class="icons">
+        <img src="../assets/icons/icons_page/icon 1.svg" alt="">
+        <img src="../assets/icons/icons_page/icon 2.svg" alt="">
+        <img src="../assets/icons/icons_page/icon 3.svg" alt="">
+        <img src="../assets/icons/icons_page/icon 4.svg" alt="">
+        <img src="../assets/icons/icons_page/icon 5.svg" alt="">
+    </div>
+    <div class="polygon">
+        <div class="polygon-left"></div>
+        <div class="polygon-right"></div>
+    </div>
+    <div class="dish-background">
+        <div class="dishs">
+            <div class="dish">
+                <img class="float-left" src="../assets/icons/icons_page/plate.svg" alt="">
+                <div class="float-right">
+                    <p class="font1 text-2xl text-color1">Oysters Rockefeller Eggs Pastry</p>
+                    <div class="dish-info">
+                        <div>
+                            <p class="font1 text-color6">Calories</p>
+                            <p class="font1 text-color1">220 kcal</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Fats</p>
+                            <p class="font1 text-color1">4,3 gr</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Protein</p>
+                            <p class="font1 text-color1">8,2 gr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dish">
+                <img class="float-left" src="../assets/icons/icons_page/plate.svg" alt="">
+                <div class="float-right">
+                    <p class="font1 text-2xl text-color1">Scrambled Eggs in Puff Pastry</p>
+                    <div class="dish-info">
+                        <div>
+                            <p class="font1 text-color6">Calories</p>
+                            <p class="font1 text-color1">450 kcal</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Fats</p>
+                            <p class="font1 text-color1">4,3 gr</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Protein</p>
+                            <p class="font1 text-color1">8,2 gr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dish">
+                <img class="float-left" src="../assets/icons/icons_page/plate.svg" alt="">
+                <div class="float-right">
+                    <p class="font1 text-2xl text-color1">Mississippi Mud with Lime</p>
+                    <div class="dish-info">
+                        <div>
+                            <p class="font1 text-color6">Calories</p>
+                            <p class="font1 text-color1">180 kcal</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Fats</p>
+                            <p class="font1 text-color1">4,3 gr</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Protein</p>
+                            <p class="font1 text-color1">8,2 gr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dish">
+                <img class="float-left" src="../assets/icons/icons_page/plate.svg" alt="">
+                <div class="float-right">
+                    <p class="font1 text-2xl text-color1">Delmonico Steak & Delmonico Potatoes</p>
+                    <div class="dish-info">
+                        <div>
+                            <p class="font1 text-color6">Calories</p>
+                            <p class="font1 text-color1">100 kcal</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Fats</p>
+                            <p class="font1 text-color1">4,3 gr</p>
+                        </div>
+                        <div>
+                            <p class="font1 text-color6">Protein</p>
+                            <p class="font1 text-color1">8,2 gr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- video -->
+<div class="container video">
+    <div class="video-left">
+        <p class="font2 text-color1">YOU CAN WATCH COOKING PROCESS TRANSLATION</p>
+        <p class="font3 text-color2">Our kitchen employs highly qualified cooks. We adhere to all sanitary standards, and these are not
+            just words, because you can easily see this yourself</p>
+        <button>
+            <p class="font2 text-color3">play video</p>
+        </button>
+    </div>
+    <div class="video-right">
+        <img src="../assets/icons/icons_page/video.svg" alt="">
+    </div>
+</div>
+
+<!-- how it works -->
+<div class="container-howitworks">
+    <div class="works-background">
+        <img class="title-hiws" src="../assets/icons/icons_page/title.svg" alt="">
+        <div class="ststep1">
+            <p class="font2 text-color3">CHOOSE</p>
+            <p class="font1 text-color3">Do you want to lose weight, exercise, adhere to a therapeutic diet? Our dietitian will help you with
+                choosing the right program!</p>
+        </div>
+        <div class="ststep2">
+            <p class="font2 text-color3">PREPARE FOOD</p>
+            <p class="font1 text-color3">We prepare food from fresh and proven products according to the menu developed by the chef,
+                nutritionist, and fitness trainer.</p>
+        </div>
+        <div class="ststep3">
+            <p class="font2 text-color3">DELIVER</p>
+            <p class="font1 text-color3">Home or Office? Our courier will deliver your 5-times daily diet to anywhere in the world.</p>
+        </div>
+        <div class="way1">
+            <img src="../assets/icons/icons_page/way 1.svg" alt="">
+        </div>
+        <div class="way2">
+            <img src="../assets/icons/icons_page/way 2.svg" alt="">
+        </div>
+    </div>
+</div>
+
+<!-- related-post -->
+<div class="container related-post">
+    <p class="font2 text-color1">RELATED POST</p>
+    <div class="posts">
+        <div class="post">
+            <div class="properties">
+                <div class="property1">
+                    <img src="../assets/icons/icons_page/1.svg" alt="">
+                    <p class="font1 text-sm text-color2">April 8, 2020</p>
+                </div>
+                <div class="property1">
+                    <img src="../assets/icons/icons_page/2.svg" alt="">
+                    <p class="font1 text-sm text-color2">Chanel Davis</p>
+                </div>
+                <div class="property1">
+                    <img src="../assets/icons/icons_page/3.svg" alt="">
+                    <p class="font1 text-sm text-color2">4</p>
+                </div>
+            </div>
+            <img class="img-post" src="../assets/icons/icons_page/relate.svg" alt="">
+            <p class="font1 text-2xl text-color1">Proper nutrition or diet? What's the Difference?</p>
+            <div class="property2">
+                <img src="../assets/icons/icons_page/readmore.svg" alt="">
+                <p class="font1 text-sm text-color4">Read more</p>
+            </div>
+        </div>
+        <div class="post">
+            <div class="properties">
+                <div class="property1">
+                    <img src="../assets/icons/icons_page/1.svg" alt="">
+                    <p class="font1 text-sm text-color2">April 8, 2020</p>
+                </div>
+                <div class="property1">
+                    <img src="../assets/icons/icons_page/2.svg" alt="">
+                    <p class="font1 text-sm text-color2">Chanel Davis</p>
+                </div>
+                <div class="property1">
+                    <img src="../assets/icons/icons_page/3.svg" alt="">
+                    <p class="font1 text-sm text-color2">4</p>
+                </div>
+            </div>
+            <img class="img-post" src="../assets/icons/icons_page/relate.svg" alt="">
+            <p class="font1 text-2xl text-color1">Proper nutrition or diet? What's the Difference?</p>
+            <div class="property2">
+                <img src="../assets/icons/icons_page/readmore.svg" alt="">
+                <p class="font1 text-sm text-color4">Read more</p>
+            </div>
+        </div>
+        <div class="post">
+            <div class="properties">
+                <div class="property1">
+                    <img src="../assets/icons/icons_page/1.svg" alt="">
+                    <p class="font1 text-sm text-color2">April 8, 2020</p>
+                </div>
+                <div class="property1">
+                    <img src="../assets/icons/icons_page/2.svg" alt="">
+                    <p class="font1 text-sm text-color2">Chanel Davis</p>
+                </div>
+                <div class="property1">
+                    <img src="../assets/icons/icons_page/3.svg" alt="">
+                    <p class="font1 text-sm text-color2">4</p>
+                </div>
+            </div>
+            <img class="img-post" src="../assets/icons/icons_page/relate.svg" alt="">
+            <p class="font1 text-2xl text-color1">Proper nutrition or diet? What's the Difference?</p>
+            <div class="property2">
+                <img src="../assets/icons/icons_page/readmore.svg" alt="">
+                <p class="font1 text-sm text-color4">Read more</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- banner -->
+<div class="container-banner">
+    <div class="banner-background">
+        <div class="banner-left">
+            <p class="font2 text-color1">NEED A FREE CONSULTATION?</p>
+            <p class="font3 text-color5">If you  have questions, please fill out the form and we will call you back within five minutes.</p>
+            <form action="" class="email">
+                <input type="text" name="" id="" placeholder="Email">
+                <button>
+                    <p class="font2 text-lg text-color3">send</p>
+                </button>
+            </form>
+        </div>
+        <img src="../assets/icons/icons_page/decor text.svg" alt="">
+    </div>
+    <div class="banner-background-right"></div>
+</div>
+
+
+</html>
+
+
+

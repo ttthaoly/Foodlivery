@@ -196,15 +196,24 @@
                 </div>
 
                 <!-- form -->
-                <form action="">
+                <form action="" method="post" id="myform" class="form">
                     <p class="font2 text-3xl text-color1">Leave a Reply</p>
                     <div class="form-info">
-                        <input class="form-name" type="text" placeholder="Name*">
-                        <input class="form-name" type="text" placeholder="Email*">
+                        <div class="info-name">
+                            <input class="form-name"  name="form-name" type="text" placeholder="Name*">
+                            <span class="form-message"></span>
+                        </div>
+                        <div class="info-name">
+                            <input class="form-email"  name="form-email" type="text" placeholder="Email*">
+                            <span class="form-message"></span>
+                        </div>
                     </div>
-                    <input class="form-comment" type="text" placeholder="Comment">
+                    <div class="info-name-textarea">
+                        <textarea class="form-comment"  name="form-comment" id="" cols="30" rows="10" placeholder="Comment"></textarea>
+                        <span class="form-message"></span>
+                    </div>
                     <p class="text-color5">Your email address will not be published. Required fields are marked *</p>
-                    <button>
+                    <button type="submit" id="submit">
                         <p class="font2 text-lg text-color3">post comment</p>
                     </button>
                 </form>
@@ -384,4 +393,22 @@
             </div>
         </div>
     </div>
+
+    <script src="../js/contacts.js">
+        form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        cleanMessage();
+        hasValue("form-name");
+        hasValue("form-email");
+        hasValue("form-comment");
+        hasValue("email-footer");
+        
+        // output("form-name");
+        // output("form-email");
+        // output("form-comment");
+        
+        //    resetForm();
+        })
+    </script>
+    <script src="../js/nav-bar.js"></script>
 </body>

@@ -1,0 +1,53 @@
+:root {
+    --white: #ffffff;
+
+    /* background */
+    --primary-background-color: #2E294E;
+    --secondary-background-color: #343232;
+    --tertiary-background-color: #FFFFFF;
+
+    /* button */
+    --solid-button-background-color: #484848;
+    --solid-button-text-color: #FFFFFF;
+    --solid-button-font-size: 0.9375em;
+
+    --round-button-background-color: #FFFFFF;
+    --round-button-border: 1px solid #484848;
+    --round-button-font-size: var(--solid-button-font-size);
+    --round-button-text-color: #484848;
+
+    --tertiary-button-color: #E0E2E6;
+    --tertiary-button-text-color: #484848;
+    --tertiary-button-font-size: 0.9375em;
+
+    --button-height-extra-small: 38px;
+    --button-height-small: 46px;
+    --button-height-regular: 56px;
+    --button-height-large: 60px;
+
+
+    /* text */
+    --font-family1: "Montserrat";
+    --font-family2: "Oswald";
+    --font-family3: "Open Sans";
+    --font-style: normal;
+    --text-color1: #2E294E;
+    --text-color2: #343232;
+    --text-color3: #FFFFFF;
+    --text-color4: #41AA3F;
+    --text-color5: #6B6B6B;
+    --text-color6: #FF7D34;
+
+    --text-xs: 0.875em;
+    --text-sm: 0.875em;
+    --text-base: 1em;
+    --text-lg: 1.125em;
+    --text-xl: 1.375em;
+    --text-2xl: 1.5em;
+    --text-3xl: 2.4375em;
+
+/* input */
+    --input-font-size: 0.875em;
+    --input-text-color: #9A9A9A;
+    --input-background-color: #FFFFFF;
+}

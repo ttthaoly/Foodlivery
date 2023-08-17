@@ -1,0 +1,48 @@
+/* open-sans-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200;
+     src: url("../../assets/fonts/fonts/Oswald/static/Oswald-ExtraLight.ttf") format('truetype'); /* Safari, Android, iOS */
+  }
+/* open-sans-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+     src: url("../../assets/fonts/fonts/Oswald/static/Oswald-Light.ttf") format('truetype'); /* Safari, Android, iOS */
+  }
+  /* open-sans-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../assets/fonts/fonts/Oswald/static/Oswald-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
+  /* open-sans-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../../assets/fonts/fonts/Oswald/static/Oswald-Medium.ttf") format('truetype'); /* Safari, Android, iOS */
+  }
+  /* open-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    src: url("../../assets/fonts/fonts/Oswald/static/Oswald-SemiBold.ttf") format('truetype'); /* Safari, Android, iOS */
+  }
+  /* open-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../../assets/fonts/fonts/Oswald/static/Oswald-Bold.ttf") format('truetype'); /* Safari, Android, iOS */
+  }

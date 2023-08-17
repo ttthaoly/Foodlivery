@@ -1,0 +1,19 @@
+@import url("../css/theme/opensans.css");
+@import url("../css/theme/montserrat-v25-latin.css");
+@import url("../css/theme/oswald.css");
+
+*,
+html {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 16px;
+}
+body {
+  background-color: #ffffff;
+}
+button{
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+}

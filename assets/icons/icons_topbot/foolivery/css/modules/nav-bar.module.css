@@ -1,0 +1,25 @@
+.menu-items {
+    display: flex;
+    width: 576px;
+    height: 20px;
+    /* margin: 17px 0px 15px 0px; */
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 0px;
+}
+.item {
+    margin-right: 49px;
+}
+li.item:last-child{
+    margin-right: 0px;
+}
+.item a {
+    display: block;
+    text-decoration: none;
+}
+/* :hover thẻ này dùng để truy cập trạng thái của 1 vật thể thể (hover, focus, disabled, hover, visited, active) */
+div.nav-bar ul.menu-items li.item a:hover {
+    background-color: pink;
+}

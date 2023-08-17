@@ -8,33 +8,28 @@
 @import url("../modules/header.module.css");
 @import url("../modules/nav-bar.module.css");
 @import url("../modules/footer.module.css");
-/* @import url("../main.css"); */
 
 /* hero */
-.bgr {
-    position: relative;
-    height: 900px;
-    overflow: hidden;
-}
 .empty {
     width: 100%;
     height: 140px;
 }
+.bgr {
+    height: 900px;
+}
 .hero {
-    max-width: 1232px;
-    margin: 0 auto;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
     height: 100%;
-    padding-top: 179px;
-    padding-bottom: 195px;
-    padding-left: 100px;
 }
 .hero-left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 457px;
-    height: 100%;
+    height: 563px;
+    margin: 235px 352px 0px 0px;
 }
 .hero-left h2 {
     width: 457px;
@@ -125,11 +120,9 @@
     color: #343232;
 }
 .hero-right {
-    position: absolute;
-    width: 100vh;
+    position: relative;
+    width: 30.1%;
     height: 900px;
-    top: 0;
-    left: 809px;
     background-color: #FFBE34;
     border-radius: 80px 0px 0px 80px;
 }
@@ -138,21 +131,6 @@
     top: 179px;
     left: 162px;
 }
-/* @media (max-width: 1449px) {
-    .bgr {
-        background-image: linear-gradient(to right, #FFFFFF 80%, #FFBE34 20%);
-    }
-}
-@media (max-width: 1401px) {
-    .bgr {
-        background-image: linear-gradient(to right, #FFFFFF 77%, #FFBE34 23%);
-    }
-}
-@media (max-width: 1301px) {
-    .bgr {
-        background-image: linear-gradient(to right, #FFFFFF 65%, #FFBE34 35%);
-    }
-} */
 
 /* about-us */
 .container.about-us {
@@ -162,7 +140,6 @@
     align-items: center;
     margin-top: 55px;
     margin-bottom: 104px;
-    padding-left: 100px;
 }
 .aboutus-left img{
     width: 550px;
@@ -172,7 +149,6 @@
 .aboutus-right {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     width: 550px;
     height: 467px;
     margin: 77px 0px 0px 32px;
@@ -186,7 +162,6 @@
 .aboutus-right p.font3.text-base.text-color5{
     width: 453px;
     height: 227px;
-    /* margin: 0px 0px 40px 0px; */
 }
 .aboutus-right button{
     width: 207px;
@@ -199,11 +174,6 @@
 }
 
 /* filter */
-.container-filter{
-    max-width: 1234px;
-    margin: 0px auto;
-    padding-left: 100px;
-}
 .filter {
     display: flex;
     flex-direction: row;
@@ -216,7 +186,7 @@
 .filter p.font2.text-color1 {
     width: 138px;
     height: 60px;
-    margin: 55px 81px 62px 64px;
+    margin: 55px 113px 62px 64px;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -271,7 +241,7 @@
     background: #F5F5F5;
 }
 .polygon-left {
-    width: 198px;
+    width: 232px;
     height: 45px;
     margin: 0px;
     background: #FFFFFF;
@@ -292,14 +262,10 @@
        "dish dish";
     column-gap: 32px;
     row-gap: 32px;
-    width: 1626px;
     height: 740px;
-    background: #F5F5F5;
-    border-radius: 80px 0px 0px 80px;
-    padding: 100px;
 }
 .dishs .dish{
-    background: #FFFFFF;
+    background: #F5F5F5;
     border-radius: 20px;
 }
 .dishs img.float-left{
@@ -346,7 +312,6 @@
     align-items: center;
     height: 355px;
     margin-top: 100px;
-    padding-left: 100px;
 }
 .container.video .video-left{
     display: flex;
@@ -395,25 +360,11 @@
 }
 
 /* how it works */
-.overflow-hidden {
-    width: 100%;
-    overflow: hidden;
-}
-.bgr-how{
-    position: relative;
-    max-width: 1332px;
-    height: 645px;
-    margin: 0 auto;
-    margin-top: 120px;
-    /* background-image: linear-gradient(to right, #FFFFFF 50%, #41AA3F 50%); */
-}
 .container.howitworks {
-    position: absolute;
-    z-index: 1;
-    width: 1232px;
+    position: relative;
     height: 645px;
     margin-top: 120px;
-    /* background: #41AA3F; */
+    background: linear-gradient(261.19deg, #39A237 -0.1%, #41AA3F 99.9%), #41AA3F;
     /* border-radius: 80px 0px 0px 80px; */
 }
 .container.howitworks img.title-hiws {
@@ -421,7 +372,7 @@
     width: 1132px;
     height: 144px;
     top: 0px;
-    left: 100px;
+    left: 0px;
 }
 .container.howitworks p.font2.text-color3{
     margin: 0px;
@@ -443,7 +394,7 @@
     height: 196px;
     padding-right: 32px;
     top: 353px;
-    left: 102px;
+    left: 0px;
 }
 .container.howitworks div.ststep2{
     position: absolute;
@@ -451,7 +402,7 @@
     height: 181px;
     padding-right: 54px;
     top: 128px;
-    left: 541px;
+    left: 439px;
 }
 .container.howitworks div.ststep3{
     position: absolute;
@@ -459,28 +410,21 @@
     height: 158px;
     padding-right: 107px;
     top: 353px;
-    left: 949px;
+    left: 847px;
 }
 .container.howitworks div.way1{
     position: absolute;
     width: 242px;
     height: 249.19px;
     top: 145px;
-    left: 293px;
+    left: 191px;
 }
 .container.howitworks div.way2{
     position: absolute;
     width: 362px;
     height: 158px;
     top: 149px;
-    left: 848px;
-}
-.bgr-grandient {
-    position: absolute;
-    width: calc(100vh + 809px); 
-    height: 645px;
-    background: linear-gradient(261.19deg, #39A237 -0.1%, #41AA3F 99.9%), #41AA3F;
-    border-radius: 80px 0px 0px 80px;
+    left: 746px;
 }
 
 /* related-post */
@@ -490,7 +434,7 @@
     justify-content: space-between;
     height: 478px;
     margin-top: 80px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
 }
 .container.related-post p.font2.text-color1 {
     margin: 0px 0px 40px 0px;
@@ -565,7 +509,7 @@
     position: relative;
     height: 588px;
     background: #F5F5F5;
-    border-radius: 80px 0px 0px 80px;
+    /* border-radius: 80px 0px 0px 80px; */
     margin-top: 86px;
 }
 .banner .banner-left p.font2.text-color1 {
@@ -573,7 +517,7 @@
     width: 486px;
     height: 142px;
     top: 120px;
-    left: 96px;
+    /* left: 96px; */
     margin: 0px;
     font-weight: 400;
     font-size: 64px;
@@ -586,7 +530,7 @@
     width: 471px;
     height: 68px;
     top: 293px;
-    left: 100px;
+    /* left: 100px; */
     margin: 0px;
     font-weight: 400;
     font-size: 16px;
@@ -597,14 +541,14 @@
     width: 1136px;
     height: 139px;
     top: 0px;
-    left: 100px;
+    /* left: 100px; */
 }
 .banner .email{
     position: absolute;
     width: 454px;
     height: 49px;
     top: 411px;
-    left: 99px;
+    /* left: 99px; */
 }
 .banner .email input{
     position: relative;
@@ -635,252 +579,3 @@
     height: 27px;
     margin: 0px;
 }
-
-
-
-
-
-.header-fixed {
-    position: fixed;
-    top: 0;
-    padding: 49px 0 11px 0;
-    width: 100%;
-    z-index: 10;
-    background-color: #ffffff;
-  }
-  header {
-    width: 100%;
-    max-width: 1132px;
-    margin: 0 auto;
-    padding: 0 20px;
-    padding-top: 2px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0 69px;
-  }
-  
-  /* logo */
-  .logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 0 15px;
-  }
-  .logo .font2.text-color2 {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 41px;
-  }
-  
-  /* nav-bar */
-  .nav-bar {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 0 20px;
-  }
-  ul {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-  }
-  .items {
-    width: 100%;
-    height: 50px;
-    max-width: 576px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .items .item a.text-color2 {
-    padding: 15px 0;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    position: relative;
-  }
-  .menu-icon {
-    width: 50px;
-    height: 50px;
-  }
-  .menu-icon span {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .menu-icon span img {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .call-container {
-    display: flex;
-    align-items: center;
-    gap: 0 18px;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #343232;
-  }
-  .call-number {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #343232;
-  }
-  .items,
-  .call {
-    display: none;
-  }
-  .empty {
-    width: 100%;
-    height: 112px;
-  }
-  
-  @media screen and (min-width: 768px) {
-    header {
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-    .call {
-      display: block;
-    }
-    .call-number {
-      display: none;
-    }
-  }
-  
-  @media screen and (min-width: 912px) {
-    header {
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-    .nav-bar {
-      justify-content: space-between;
-      gap: 0 12px;
-    }
-    .menu-icon {
-      display: none;
-    }
-    .items {
-      display: flex;
-    }
-  }
-  
-  @media screen and (min-width: 1280px) {
-    header {
-      padding-left: 0;
-      padding-right: 0;
-    }
-    .call-number {
-      display: block;
-    }
-  }
-
-
-
-  /* header */
-.header-fixed {
-    width: 100%;
-    padding-top: 49px;
-    position: fixed;
-    z-index: 10;
-    background: #FFFFFF;
-}
-header {
-  width: 100%;
-  max-width: 1132px;
-  margin: 0 auto;
-  padding-top: 2px;
-  gap: 69px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #FFFFFF;
-}
-.logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0 15px;
-}
-.logo .font2.text-color2 {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 41px;
-    margin: 0px;
-}
-.phone > .icon-menu > img {
-    width: 45px;
-    height: 45px;
-}
-.call-container {
-  display: flex;
-  align-items: center;
-  gap: 0 18px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #343232;
-}
-.call-number {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #343232;
-}
-.menu-icon {
-    display: none;
-}
-.empty {
-  width: 100%;
-  height: 112px;
-}
-
-@media screen and (max-width: 768px) {
-  .call-icon {
-      display: none;
-  }
-  .nav-bar {
-    margin-right: 50px;
-  }
-}
-
-@media screen and (max-width: 912px) {
-  .items {
-      display: none;
-  }
-  .menu-icon {
-      display: block;
-      width: 50px;
-      height: 50px;
-  }
-  .menu-icon span img{
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .nav-bar {
-      justify-content: flex-end;
-      gap: 20px;
-  }
-}
-
-@media screen and (max-width: 1132px) {
-  .call-number {
-      display: none;
-  }
-}
-  
